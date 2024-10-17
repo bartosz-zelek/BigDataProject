@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7cd2057-84c5-4cfc-b843-dfe892885268" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_hadoop_common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_hadoop_mapreduce_client_common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlightDelaysBigData.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00008" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00009" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00010" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00011" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00012" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00013" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00014" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00015" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00016" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00017" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00018" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00019" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00021" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00022" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00023" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00024" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00025" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00026" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00027" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00028" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00029" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00030" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00031" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00032" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00033" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00034" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00035" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00036" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00037" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00038" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00039" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00040" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00041" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00042" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00043" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00044" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00045" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00046" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00047" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00048" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00049" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00050" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00051" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00052" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00053" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00054" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00055" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00056" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00057" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00058" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00059" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00060" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00061" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00062" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00063" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00064" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00065" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00066" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00067" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00068" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00069" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00070" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00071" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00072" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00073" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00074" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00075" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00076" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00077" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00078" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00079" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00080" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00081" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00082" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00083" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00084" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00085" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00086" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00087" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00088" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00089" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00090" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00091" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00092" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00093" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00094" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00095" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00096" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00097" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00098" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource1/part-00099" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/datasource4/airports.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LandingsAndDelays.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2nXCinASHx6EcWurlfmeYmhSEa7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LandingsAndDelays.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pc/IdeaProjects/FlightDelaysBigData&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/pc/IdeaProjects/FlightDelaysBigData/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LandingsAndDelays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LandingsAndDelays" />
+      <module name="FlightDelaysBigData" />
+      <option name="PROGRAM_PARAMETERS" value="input/datasource1 output" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LandingsAndDelays" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7cd2057-84c5-4cfc-b843-dfe892885268" name="Changes" comment="" />
+      <created>1729110163076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729110163076</updated>
+      <workItem from="1729110164080" duration="230000" />
+      <workItem from="1729110399902" duration="9125000" />
+      <workItem from="1729174384874" duration="4749000" />
+      <workItem from="1729186135092" duration="2407000" />
+      <workItem from="1729199343023" duration="1000000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
