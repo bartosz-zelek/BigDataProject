@@ -17,7 +17,7 @@ import java.io.File;
 import java.io.IOException;
 
 // PYTANIA
-// 1. Czy brać pod uwagę jedynie dodatnie opóźnienia?
+// 1. Czy brać pod uwagę jedynie dodatnie opóźnienia? TAK MAX(0, ARRIVAL_DELAY)
 // 2. Jak uwzględnić brakujące wartości w kolumnie ARRIVAL_DELAY?
 // 3. Czy format wyjściowy jest poprawny? AMA,2015,12	237,493.0
 
@@ -45,16 +45,14 @@ public class LandingsAndDelays extends Configured implements Tool{
             }
             if (columns[CANCELLED].equals("1")) return;
 
-            if (columns[DIVERTED].equals("1")) return;
-
-            if (columns[ARRIVAL_DELAY].isEmpty()) {
-                System.out.println("Invalid record(ARRIVAL_DELAY is empty but CANCELLED=0 and not DIVERTED): " + line.toString());
-                return;
-            }
+            // zgodnie z zaleceniem prowadzącego ignoruję kolumnę DIVERTED
+            // gdy wartość ARRIVAL_DELAY jest pusta, to traktuję to jako brak opóźnienia -> 0
+            // if (columns[DIVERTED].equals("1")) return;
 
             int arrivalDelay = 0;
             if (!columns[ARRIVAL_DELAY].isEmpty()) {
-                arrivalDelay = Integer.parseInt(columns[ARRIVAL_DELAY]);
+                // zgodnie z zaleceniem prowadzącego ujemne wartości ARRIVAL_DELAY są traktowane jako brak opóźnienia -> 0
+                arrivalDelay = Math.max(0, Integer.parseInt(columns[ARRIVAL_DELAY]));
             }
 
             outputKey.set(columns[DESTINATION_AIRPORT] + "," + columns[YEAR] + "," + columns[MONTH]);
