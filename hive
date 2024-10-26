@@ -1,0 +1,31 @@
+CREATE EXTERNAL TABLE AIRPORTS_LANDINGS_DELAYS (
+    AIRPORT STRING,
+    YEAR STRING,
+    MONTH STRING,
+    LANDINGS_COUNT INT,
+    TOTAL_DELAY INT
+)
+COMMENT "mapreduce output"
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.RegexSerDe'
+WITH SERDEPROPERTIES (
+    "input.regex" = "([^,]+),([^,]+),([^\\t]+)\\t([^,]+),([^\\s]+)"
+)
+STORED AS TEXTFILE
+location 'hdfs://namenode:9000/user/root/input/mr';
+
+-- hadoop fs -ls hdfs://namenode:9000/ - check files in hdfs
+
+CREATE EXTERNAL TABLE AIRPORTS (
+    IATA STRING,
+    AIRPORT STRING,
+    CITY STRING,
+    STATE STRING,
+    COUNTRY STRING,
+    LATITUDE DOUBLE,
+    LONGITUDE DOUBLE
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+location 'hdfs://namenode:9000/user/root/input/datasource4'
+TBLPROPERTIES ("skip.header.line.count"="1");

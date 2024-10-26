@@ -1,0 +1,13 @@
+docker cp ./output/part-r-00000 namenode:mapreduce_output
+docker cp input namenode:input
+
+# namenode
+docker exec -it namenode bash
+hadoop fs -copyFromLocal input .
+hadoop fs -mkdir input/mr
+hadoop fs -copyFromLocal mapreduce_output input/mr
+
+# hive
+docker exec -it hive-server bash
+hiveserver2
+beeline -u jdbc:hive2://localhost:10000 -n root --showDbInPrompt=true

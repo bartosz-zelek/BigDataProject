@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7cd2057-84c5-4cfc-b843-dfe892885268" name="Changes" comment="ignore diverted, ignire negative values">
-      <change afterPath="$PROJECT_DIR$/output_without_combiner" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output/.part-r-00000.crc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/part-r-00000" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LandingsAndDelays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LandingsAndDelays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/barto/IdeaProjects/BigDataProject/output_without_combiner",
+    "last_opened_file_path": "/home/pc/BigDataProject/output_without_combiner",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,7 +58,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "two.files.diff.last.used.file": "C:/Users/barto/IdeaProjects/BigDataProject/output_without_combiner",
+    "two.files.diff.last.used.file": "/home/pc/BigDataProject/output_without_combiner",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,8 +88,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -112,6 +109,7 @@
       <workItem from="1729238243393" duration="3070000" />
       <workItem from="1729263407641" duration="1990000" />
       <workItem from="1729272278649" duration="5915000" />
+      <workItem from="1729968330321" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="ignore diverted, ignire negative values">
       <option name="closed" value="true" />

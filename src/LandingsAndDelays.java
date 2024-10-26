@@ -114,7 +114,7 @@ public class LandingsAndDelays extends Configured implements Tool{
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
-        job.setNumReduceTasks(3);
+        job.setNumReduceTasks(1);
 
         return job.waitForCompletion(true) ? 0 : 1;
     }
