@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="apache.hadoop.common" level="project" />
     <orderEntry type="library" name="apache.hadoop.mapreduce.client.common" level="project" />
+    <orderEntry type="library" name="hive-jdbc-2.3.2-standalone" level="project" />
   </component>
 </module>

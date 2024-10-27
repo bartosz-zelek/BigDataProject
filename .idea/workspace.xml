@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7cd2057-84c5-4cfc-b843-dfe892885268" name="Changes" comment="ignore diverted, ignire negative values">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hive_jdbc_2_3_2_standalone.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hive_result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StatesWithHighestDelays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LandingsAndDelays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LandingsAndDelays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightDelaysBigData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FlightDelaysBigData.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/used_commands" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +28,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bartosz-zelek&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bartosz-zelek/BigDataProject.git&quot;,
+    &quot;accountId&quot;: &quot;a65e8825-2fe3-412b-90ab-350458a442f8&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -40,14 +61,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.LandingsAndDelays.executor": "Run",
+    "Application.StatesWithHighestDelays.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/pc/BigDataProject/output_without_combiner",
+    "last_opened_file_path": "/home/pc/Documents/apache-hive-2.3.2-bin/jdbc/hive-jdbc-2.3.2-standalone.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,8 +78,8 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/pc/IdeaProjects/FlightDelaysBigData/src/Main.java",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3959572",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "two.files.diff.last.used.file": "/home/pc/BigDataProject/output_without_combiner",
     "vue.rearranger.settings.migration": "true"
@@ -70,7 +93,14 @@
       <recent name="C:\Users\barto\IdeaProjects\BigDataProject" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="docker-deploy" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.StatesWithHighestDelays">
     <configuration name="LandingsAndDelays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LandingsAndDelays" />
       <module name="FlightDelaysBigData" />
@@ -79,8 +109,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StatesWithHighestDelays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StatesWithHighestDelays" />
+      <module name="FlightDelaysBigData" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StatesWithHighestDelays" />
         <item itemvalue="Application.LandingsAndDelays" />
       </list>
     </recent_temporary>
@@ -88,8 +126,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -110,6 +148,9 @@
       <workItem from="1729263407641" duration="1990000" />
       <workItem from="1729272278649" duration="5915000" />
       <workItem from="1729968330321" duration="643000" />
+      <workItem from="1730053070093" duration="2516000" />
+      <workItem from="1730060285519" duration="1636000" />
+      <workItem from="1730070208061" duration="2541000" />
     </task>
     <task id="LOCAL-00001" summary="ignore diverted, ignire negative values">
       <option name="closed" value="true" />
@@ -124,6 +165,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ignore diverted, ignire negative values" />

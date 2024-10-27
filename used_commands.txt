@@ -3,6 +3,7 @@ docker cp input namenode:input
 
 # namenode
 docker exec -it namenode bash
+hadoop fs -mkdir -p input
 hadoop fs -copyFromLocal input .
 hadoop fs -mkdir input/mr
 hadoop fs -copyFromLocal mapreduce_output input/mr

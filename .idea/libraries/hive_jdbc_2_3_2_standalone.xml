@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="hive-jdbc-2.3.2-standalone">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Documents/apache-hive-2.3.2-bin/jdbc/hive-jdbc-2.3.2-standalone.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
