@@ -12,3 +12,5 @@ hadoop fs -copyFromLocal mapreduce_output input/mr
 docker exec -it hive-server bash
 hiveserver2
 beeline -u jdbc:hive2://localhost:10000 -n root --showDbInPrompt=true
+
+./hive_script.sh hdfs://namenode:9000/user/root/input/mr hdfs://namenode:9000/user/root/input/datasource4 aha
