@@ -114,13 +114,12 @@ public class LandingsAndDelays extends Configured implements Tool{
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
-        job.setNumReduceTasks(1);
+        job.setNumReduceTasks(3);
 
         return job.waitForCompletion(true) ? 0 : 1;
     }
 
     public static void main(String[] args) throws Exception {
-        FileUtils.deleteDirectory(new File(args[1]));
         int exitCode = ToolRunner.run(new LandingsAndDelays(), args);
         System.exit(exitCode);
     }
