@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FlightDelaysBigData:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FlightDelaysBigData_jar</output-path>
+    <root id="archive" name="FlightDelaysBigData.jar">
+      <element id="module-output" name="FlightDelaysBigData" />
+    </root>
+  </artifact>
+</component>
